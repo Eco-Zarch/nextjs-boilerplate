@@ -1,9 +1,7 @@
 {
-	"version": 2,
-	"crons": [
-		{
-			"path": "/api/cron",
-			"schedule": "0 0 * * *"
-		}
-	]
+  "functions": {
+    "app/api/playwright-scraper.py": {
+      "runtime": "python3.10"
+    }
+  }
 }
